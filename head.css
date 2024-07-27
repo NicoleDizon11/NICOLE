@@ -1,0 +1,37 @@
+body{
+	min-height: 100%;
+    background: white;
+    font-family: Arial, sans-serif;
+}
+h1{
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+}
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: #d6a41c;
+    justify-content: space-between;
+}
+.logo-name{
+	margin-left: 20px;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+}
+.reg-log{
+	margin-right: 30px;
+}
+a{
+	text-decoration: none;
+	color: white;
+	margin-left: 10px;
+}
+.div a:hover{
+    background-color: aquamarine;
+}

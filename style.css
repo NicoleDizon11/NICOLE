@@ -1,0 +1,116 @@
+body {
+    background-color: rgb(90, 103, 216);
+    text-align: center;
+}
+
+h1 {
+    border-style: ridge;
+    background-color: rgb(155, 48, 48);
+    color: rgb(12, 12, 12);
+    font-family: 'Courier New', Courier, monospace;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0%;
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+div {
+    background-color: beige;
+    font-style: italic;
+    overflow: auto;
+    height: 50%;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+a:hover{
+
+    color:aliceblue;
+}
+.active{
+    color: blueviolet;
+    background-color:#04AA6D;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li a{
+    display: block;
+}
+li a:hover{
+    background-color: black;
+    color: bisque;
+}
+#main{
+    transition: margin-left .5s;
+    padding: 20px;
+}
+.sidenav {
+    height:100%;
+    width:0;
+    position:fixed;
+    z-index: 1;
+    top:0;
+    left:0;
+    background-color:rgb(95, 47, 28);
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+.sidenav a{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    color:beige;
+    display: block;
+    transition: 0.3s;
+}
+.sidenav a:hover {
+    color:bisque;
+
+
+}
+#openNav{
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 1;
+}
+#closeNav{
+    position: absolute;
+    top: 0;
+    nav-right: 25px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 100px;
+}
+
+input{
+    
+    width: 20%;
+    border-radius: 4px;
+    
+    
+}
+.button{
+    background-color: #04AA6D;
+    width: 100px;
+    border-radius: 12px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.button:hover {
+    background-color: aliceblue;
+}
